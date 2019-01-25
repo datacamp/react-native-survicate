@@ -1,5 +1,5 @@
 {
-  "name": "react-native-survicate",
+  "name": "@datacamp/react-native-survicate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "react-native"
   ],
   "author": "",
-  "license": "",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"
   }
