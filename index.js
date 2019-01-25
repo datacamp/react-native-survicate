@@ -1,5 +1,4 @@
-
-import { NativeModules } from 'react-native';
+import { NativeModules } from "react-native";
 
 const { RNSurvicate } = NativeModules;
 

@@ -1,4 +1,4 @@
-
+#import <Survicate/Survicate.h>
 #import "RNSurvicate.h"
 
 @implementation RNSurvicate
