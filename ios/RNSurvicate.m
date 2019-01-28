@@ -25,6 +25,11 @@ RCT_EXPORT_METHOD(invokeEvent:(NSString *)eventName)
     [[Survicate shared] invokeEventWithName:eventName];
 }
 
+RCT_EXPORT_METHOD(setUserId:(NSString *)userId)
+{
+    [[Survicate shared] setUserTraitWithName:@"user_id" value:userId];
+}
+
 RCT_EXPORT_METHOD(setUserTrait:(NSString *)traitName value:(NSString *)value)
 {
     [[Survicate shared] setUserTraitWithName:traitName value:value];
