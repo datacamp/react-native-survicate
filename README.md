@@ -5,7 +5,7 @@ This package provides React Native bindings for the Survicate Mobile SDK.
 
 ## Getting started
 
-Install the native Survicate Mobile SDK in your project by following the official instructions.
+Install the native Survicate Mobile SDK in your project by [following the official instructions](https://developers.survicate.com/mobile-sdk/).
 
 Then add the NPM package:
 
