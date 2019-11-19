@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/react-native-survicate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Native Survicate bindings",
   "main": "index.js",
   "homepage": "https://www.datacamp.com",
