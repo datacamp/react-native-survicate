@@ -11,9 +11,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/author/RNSurvicate.git", :tag => "master" }
-  s.source_files  = "RNSurvicate/**/*.{h,m}"
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
-
 
   s.dependency "React"
   #s.dependency "others"
