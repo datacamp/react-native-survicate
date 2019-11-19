@@ -1,8 +1,9 @@
 {
   "name": "@datacamp/react-native-survicate",
   "version": "1.0.1",
-  "description": "",
+  "description": "React Native Survicate bindings",
   "main": "index.js",
+  "homepage": "https://www.datacamp.com",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +13,6 @@
   "author": "",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.60.0"
   }
 }
