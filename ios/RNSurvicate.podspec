@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
-  s.dependency "React", 'Survicate', :podspec => 'https://repo.survicate.com/ios/1.0.6/Survicate.podspec'
+  s.dependency "React"
+  s.dependency 'Survicate', '1.0.6'
   #s.dependency "others"
 
 end
