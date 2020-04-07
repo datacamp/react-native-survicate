@@ -35,5 +35,10 @@ RCT_EXPORT_METHOD(setUserTrait:(NSString *)traitName value:(NSString *)value)
     [[Survicate shared] setUserTraitWithName:traitName value:value];
 }
 
+RCT_EXPORT_METHOD(reset)
+{
+    [[Survicate shared] reset];
+}
+
 @end
   

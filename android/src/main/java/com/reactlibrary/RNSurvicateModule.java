@@ -47,4 +47,9 @@ public class RNSurvicateModule extends ReactContextBaseJavaModule {
   public void setUserTrait(String userTrait, String value) {
     Survicate.setUserTrait(new UserTrait(userTrait, value));
   }
+
+  @ReactMethod
+  public void reset() {
+    Survicate.reset();
+  }
 }
